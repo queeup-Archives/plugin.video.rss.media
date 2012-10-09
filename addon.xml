@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.rss.media"
+  version="2.0.0"
+  name="RSS"
+  provider-name="queeup">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.0"/>
+    <import addon="script.module.feedparser"
+            version="5.1.2"/>
+    <import addon="plugin.video.youtube"
+            version="3.2.0"/>
+    <import addon="plugin.video.vimeo"
+            version="2.3.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>RSS is your bank for rss content.</summary>
+    <description>RSS is your bank for rss content.</description>
+    <license>WTFPL</license>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>

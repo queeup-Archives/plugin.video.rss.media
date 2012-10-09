@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- Title -->
+  <string id="30000">RSS</string>
+  
+  <!-- Context Menu & Messages -->
+  <string id="30101">Abone ol</string>
+  <string id="30102">Aboneliği kaldır</string>
+  <string id="30103">Akış Aboneliklerim'e eklendi!</string>
+  <string id="30104">Akış Aboneliklerim'den silindi!</string>
+  <string id="30105">Geçersiz öğeler!</string>
+  <string id="30106">Desteklenmeyen ortam türleri bulundu.</string>
+
+  <!-- Directory -->
+  <string id="30201">[B]Aboneliklerim[/B]</string>
+  <string id="30202">Yeni RSS Beslemesi Ekle</string>
+</strings>
