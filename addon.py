@@ -232,7 +232,7 @@ class Main:
     except:
       desc = ''
     if db.keys() != list():
-      _id = sorted(db.keys(), reverse=True)[0] + 1
+      _id = int(sorted(db.keys(), reverse=True)[0]) + 1
     else:
       _id = 1
     if DEBUG:
